@@ -27,7 +27,7 @@
             android:textSize="48sp"
             android:fontFamily="sans-serif-black"
             android:textColor="#009E90"
-            android:layout_marginTop="20sp">
+            android:layout_marginTop="20dp">
         </TextView>
 
         <TextView
@@ -44,10 +44,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="130sp"
+            app:cardCornerRadius="130dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/textView_SubTitle"
-            android:layout_marginTop="20sp"
+            android:layout_marginTop="20dp"
             >
             <ImageView
                 android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
             android:text="Nº col·legiada 4552"
             android:textSize="32sp"
             android:textStyle="bold"
-            android:layout_margin="10sp">
+            android:layout_margin="10dp">
         </TextView>
 
         <TextView
@@ -84,7 +84,7 @@
             android:layout_below="@id/textView_numCol"
             android:text="Col·legi de Fisioterapeutes de Catalunya"
             android:textSize="16sp"
-            android:layout_margin="10sp">
+            android:layout_margin="10dp">
         </TextView>
 
         <TextView
@@ -95,7 +95,7 @@
             android:textColor="@color/white"
             android:textSize="32sp"
             android:textAlignment="center"
-            android:padding="30sp"
+            android:padding="30dp"
             android:background="#009E90">
 >
         </TextView>
