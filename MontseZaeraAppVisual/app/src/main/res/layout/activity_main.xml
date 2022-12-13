@@ -24,10 +24,10 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="Montserrat Zaera"
-            android:textSize="48dp"
+            android:textSize="48sp"
             android:fontFamily="sans-serif-black"
             android:textColor="#009E90"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20sp">
         </TextView>
 
         <TextView
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="Fisioterapeuta i osteòpata"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textColor="@color/black"
             android:layout_below="@id/textView_Title">
         </TextView>
@@ -44,10 +44,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="130dp"
+            app:cardCornerRadius="130sp"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/textView_SubTitle"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="20sp"
             >
             <ImageView
                 android:layout_width="wrap_content"
@@ -72,9 +72,9 @@
             android:layout_toRightOf="@id/imageView_SchoolLogo"
             android:layout_below="@id/imageView_BackGround"
             android:text="Nº col·legiada 4552"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textStyle="bold"
-            android:layout_margin="10dp">
+            android:layout_margin="10sp">
         </TextView>
 
         <TextView
@@ -83,8 +83,8 @@
             android:layout_toRightOf="@id/imageView_SchoolLogo"
             android:layout_below="@id/textView_numCol"
             android:text="Col·legi de Fisioterapeutes de Catalunya"
-            android:textSize="16dp"
-            android:layout_margin="10dp">
+            android:textSize="16sp"
+            android:layout_margin="10sp">
         </TextView>
 
         <TextView
@@ -93,9 +93,9 @@
             android:layout_height="match_parent"
             android:text="Telf. 977 202 172"
             android:textColor="@color/white"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textAlignment="center"
-            android:padding="30dp"
+            android:padding="30sp"
             android:background="#009E90">
 >
         </TextView>
