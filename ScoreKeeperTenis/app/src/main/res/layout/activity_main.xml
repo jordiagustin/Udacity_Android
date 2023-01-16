@@ -21,7 +21,7 @@
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
@@ -33,7 +33,7 @@
                     android:text="Player A"
                     android:textAlignment="center"
                     android:textColor="#FFFF00"
-                    android:textSize="36dp">
+                    android:textSize="36sp">
 
                 </TextView>
 
@@ -50,7 +50,7 @@
                     android:fontFamily="sans-serif-black"
                     android:text="Sets"
                     android:textAlignment="center"
-                    android:textSize="26dp">
+                    android:textSize="26sp">
 
                 </TextView>
 
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="22dp">
+                    android:textSize="22sp">
 
                 </TextView>
 
@@ -71,7 +71,7 @@
                     android:fontFamily="sans-serif-black"
                     android:text="Games"
                     android:textAlignment="center"
-                    android:textSize="26dp">
+                    android:textSize="26sp">
 
                 </TextView>
 
@@ -81,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="22dp">
+                    android:textSize="22sp">
 
                 </TextView>
 
@@ -98,7 +98,7 @@
                     android:fontFamily="sans-serif-black"
                     android:text="Current game score"
                     android:textAlignment="center"
-                    android:textSize="26dp">
+                    android:textSize="26sp">
 
                 </TextView>
 
@@ -109,7 +109,7 @@
                     android:text="0"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="64dp">
+                    android:textSize="64sp">
 
                 </TextView>
 
@@ -121,7 +121,7 @@
                     android:layout_marginRight="35dp"
                     android:text="Player A point"
                     android:textColor="@color/black"
-                    android:textSize="18dp">
+                    android:textSize="18sp">
 
                 </Button>
 
@@ -136,7 +136,7 @@
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
@@ -148,7 +148,7 @@
                     android:text="Player B"
                     android:textAlignment="center"
                     android:textColor="#FFFF00"
-                    android:textSize="36dp">
+                    android:textSize="36sp">
 
                 </TextView>
 
@@ -165,7 +165,7 @@
                     android:fontFamily="sans-serif-black"
                     android:text="Sets"
                     android:textAlignment="center"
-                    android:textSize="26dp">
+                    android:textSize="26sp">
 
                 </TextView>
 
@@ -175,7 +175,7 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="22dp">
+                    android:textSize="22sp">
 
                 </TextView>
 
@@ -186,7 +186,7 @@
                     android:fontFamily="sans-serif-black"
                     android:text="Games"
                     android:textAlignment="center"
-                    android:textSize="26dp">
+                    android:textSize="26sp">
 
                 </TextView>
 
@@ -196,7 +196,7 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textAlignment="center"
-                    android:textSize="22dp">
+                    android:textSize="22sp">
 
                 </TextView>
 
@@ -213,7 +213,7 @@
                     android:fontFamily="sans-serif-black"
                     android:text="Current game score"
                     android:textAlignment="center"
-                    android:textSize="26dp">
+                    android:textSize="26sp">
 
                 </TextView>
 
@@ -224,7 +224,7 @@
                     android:text="0"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="64dp">
+                    android:textSize="64sp">
 
                 </TextView>
 
@@ -236,7 +236,7 @@
                     android:layout_marginRight="35dp"
                     android:text="Player B point"
                     android:textColor="@color/black"
-                    android:textSize="18dp">
+                    android:textSize="18sp">
 
                 </Button>
 
@@ -254,7 +254,7 @@
             android:layout_marginBottom="128dp"
             android:text=""
             android:textColor="#FFFF00"
-            android:textSize="24dp"></TextView>
+            android:textSize="24sp"></TextView>
 
         <Button
             android:id="@+id/reset_match"
