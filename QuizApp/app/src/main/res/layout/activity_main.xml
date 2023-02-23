@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TitleTextStyle"
+            android:text="World Geography and culture Quiz"></TextView>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Which is the most populated country in the European Union?"></TextView>
+
+        <EditText
+            android:id="@+id/question1"
+            style="@style/EditTextStyle"
+            android:hint="Write your answer"></EditText>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Which of the next countries belong to the European Union"></TextView>
+
+
+        <CheckBox
+            android:id="@+id/question2_cb_1"
+            style="@style/CheckQuestionStyle"
+            android:text="France"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/question2_cb_2"
+            style="@style/CheckQuestionStyle"
+            android:text="Hungary"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/question2_cb_3"
+            style="@style/CheckQuestionStyle"
+            android:text="United Kingdom"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/question2_cb_4"
+            style="@style/CheckQuestionStyle"
+            android:text="All of the above"></CheckBox>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Which of the largest country in the world?"></TextView>
+
+        <RadioGroup style="@style/RadioQuestionStyle">
+
+            <RadioButton
+                android:id="@+id/question3_rb_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Canada"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question3_rb_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="China"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question3_rb_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="United States"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question3_rb_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None of the above"></RadioButton>
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Order the following languages from most spoken (1) to least spoken (6)"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="Spanish, French, Mandarin Chinese, English, Arabic, Hindi"></TextView>
+
+        <EditText
+            android:id="@+id/question4_et_1"
+            style="@style/EditTextStyle2"
+            android:hint="1"></EditText>
+
+        <EditText
+            android:id="@+id/question4_et_2"
+            style="@style/EditTextStyle2"
+            android:hint="2"></EditText>
+
+        <EditText
+            android:id="@+id/question4_et_3"
+            style="@style/EditTextStyle2"
+            android:hint="3"></EditText>
+
+        <EditText
+            android:id="@+id/question4_et_4"
+            style="@style/EditTextStyle2"
+            android:hint="4"></EditText>
+
+        <EditText
+            android:id="@+id/question4_et_5"
+            style="@style/EditTextStyle2"
+            android:hint="5"></EditText>
+
+        <EditText
+            android:id="@+id/question4_et_6"
+            style="@style/EditTextStyle2"
+            android:hint="6"></EditText>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Which is the capital of Lithuania"></TextView>
+
+        <EditText
+            android:id="@+id/question5"
+            style="@style/EditTextStyle"
+            android:hint="Write your answer"></EditText>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.How many countries are there in Africa?"></TextView>
+
+        <RadioGroup style="@style/RadioQuestionStyle">
+
+            <RadioButton
+                android:id="@+id/question6_rb_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="28"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question6_rb_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="52"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question6_rb_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="35"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question6_rb_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None of the above"></RadioButton>
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.Which of the followin languages comes from Latin?"></TextView>
+
+        <RadioGroup style="@style/RadioQuestionStyle">
+
+            <RadioButton
+                android:id="@+id/question7_rb_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaelic"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question7_rb_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Catalan"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question7_rb_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="German"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question7_rb_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None of the above"></RadioButton>
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8.In which of these cities would you drive on the left side of the road?"></TextView>
+
+        <RadioGroup style="@style/RadioQuestionStyle">
+
+            <CheckBox
+                android:id="@+id/question8_cb_1"
+                style="@style/CheckQuestionStyle"
+                android:text="Rome"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/question8_cb_2"
+                style="@style/CheckQuestionStyle"
+                android:text="Warsaw"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/question8_cb_3"
+                style="@style/CheckQuestionStyle"
+                android:text="Manchester"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/question8_cb_4"
+                style="@style/CheckQuestionStyle"
+                android:text="Osaka"></CheckBox>
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9.Which is the official language in brazil?"></TextView>
+
+        <EditText
+            android:id="@+id/question9"
+            style="@style/EditTextStyle"
+            android:hint="Write your answer"></EditText>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.Which is the most popular sport in United States?"></TextView>
+
+        <RadioGroup style="@style/RadioQuestionStyle">
+
+            <RadioButton
+                android:id="@+id/question10_rb_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basketball"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question10_rb_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baseball"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question10_rb_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="American Football"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/question10_rb_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ice Hockey"></RadioButton>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/check_result_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:text="@string/check_result"></Button>
+
+    </LinearLayout>
+
+</ScrollView>
