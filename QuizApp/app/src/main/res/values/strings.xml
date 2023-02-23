@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="app_title">World Geography and culture Quiz</string>
+    <string name="question_1">1.Which is the most populated country in the European Union?</string>
+    <string name="question_2">2.Which of the next countries belong to the European Union</string>
+    <string name="question_3">3.Which is the largest country in the world?</string>
+    <string name="question_4">4.Order the following languages from most spoken (1) to least spoken (6)</string>
+    <string name="question_5">5.Which is the capital of Lithuania</string>
+    <string name="question_6">6.How many countries are there in Africa?</string>
+    <string name="question_7">7.Which of the following languages comes from Latin?</string>
+    <string name="question_8">8.In which of these cities would you drive on the left side of the road?</string>
+    <string name="question_9">9.Which is the official language in brazil?</string>
+    <string name="question_10">10.Which is the most popular sport in United States?</string>
+    <string name="check_result">Check Result</string>
+
+    <string name="write_your_answer_hint">Write your answer</string>
+    <string name="all_of_above_answer">All of the above</string>
+    <string name="none_of_above_answer">None of the above</string>
+
+    <string name="germany">Germany</string>
+    <string name="france">France</string>
+    <string name="hungary">Hungary</string>
+    <string name="uk">United Kingdom</string>
+    <string name="canada">Canada</string>
+    <string name="china">China</string>
+    <string name="us">United States</string>
+
+    <string name="languages">Spanish, French, Mandarin Chinese, English, Arabic, Hindi</string>
+
+    <string name="gaelic">Gaelic</string>
+    <string name="catalan">Catalan</string>
+    <string name="german">German</string>
+    <string name="english">English</string>
+    <string name="mandarin_chinese">Mandarin Chinese</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="arabic">Arabic</string>
+    <string name="portuguese">Portuguese</string>
+
+    <string name="rome">Rome</string>
+    <string name="warsaw">Warsaw</string>
+    <string name="manchester">Manchester</string>
+    <string name="osaka">Osaka</string>
+    <string name="vilna">Vilna</string>
+
+    <string name="basketball">Basketball</string>
+    <string name="baseball">Baseball</string>
+    <string name="american_football">American Football</string>
+    <string name="ice_hockey">Ice Hockey</string>
+
+    <string name="your_score_is">Your score is</string>
+    <string name="your_score_is_just">Your score is just</string>
+    <string name="points">points</string>
+    <string name="point">point</string>
+    <string name="you_have_no_pass_the_test">You have not pass the test</string>
+    <string name="try_again">Try again!</string>
+    <string name="not_bad">not bad!</string>
+    <string name="good_job">Good job!</string>
+
+</resources>
