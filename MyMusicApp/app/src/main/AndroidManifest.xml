@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyMusicApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".SongsListActivity"
+            android:exported="false"
+            android:label="Songs List">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="Songs List" />
+        </activity>
+        <activity
+            android:name=".BandsListActivity"
+            android:exported="false"
+            android:label="Artists List">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="Artists List" />
+        </activity>
+        <activity
+            android:name=".GenreListActivity"
+            android:exported="false"
+            android:label="Genres List">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="Music Genres" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Music App">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="Songs List" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SongPlayer"
+            android:exported="false"
+            android:label="Song Player">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="Music Player" />
+        </activity>
+    </application>
+
+</manifest>
