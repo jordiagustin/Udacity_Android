@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Titles Style -->
+    <style name="TitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/gray_500</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <!-- Auto list title style -->
+    <style name="autoListTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginBottom">160dp</item>
+        <item name="android:layout_marginTop">120dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <!-- Auto list sub title style -->
+    <style name="autoListSubTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginBottom">100dp</item>
+        <item name="android:layout_marginTop">160dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <!-- Albums image style -->
+    <style name="categoryImageStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- Albums category title text style -->
+    <style name="categoryTitleTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <!-- Albums category sub title text style -->
+    <style name="categorySubTitleTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <!-- Items list style -->
+    <style name="itemsListStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:divider">@color/red_500</item>
+        <item name="android:dividerHeight">1dip</item>
+        <item name="android:padding">18dip</item>
+    </style>
+
+</resources>
