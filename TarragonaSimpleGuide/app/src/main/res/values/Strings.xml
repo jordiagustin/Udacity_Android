@@ -1,0 +1,23 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Tarragona Simple Guide</string>
+
+    <!-- Category name for monuments [CHAR LIMIT=20] -->
+    <string name="category_monuments">Monuments</string>
+
+    <!-- Category name for museums [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for landscapes [CHAR LIMIT=20] -->
+    <string name="category_landscapes">Landscapes</string>
+
+    <!-- Category name for restaurants [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for information [CHAR LIMIT=20] -->
+    <string name="category_information">Info/Help</string>
+
+    <!-- Detailed descriptions -->
+    <string name="walls_description">asdadsasdasdasdasdsasdasdasddas</string>
+
+</resources>
