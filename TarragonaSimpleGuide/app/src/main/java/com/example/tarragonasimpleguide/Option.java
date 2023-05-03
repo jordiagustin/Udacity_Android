@@ -23,6 +23,7 @@ public class Option {
         mImageResourceId = imageResourceId;
     }
 
+
     /**
      * Get the string resource ID for the turist guide option title.
      */

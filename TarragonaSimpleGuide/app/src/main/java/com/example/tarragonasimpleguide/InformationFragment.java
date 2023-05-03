@@ -40,7 +40,7 @@ public class InformationFragment extends Fragment {
         // Create a list of options
         final ArrayList<Option> options = new ArrayList<Option>();
 
-        options.add(new Option("Tourist Info", "977 25 07 95",R.drawable.info));
+        options.add(new Option(getString(R.string.tourist_info_title), getString(R.string.tourist_info_telf),R.drawable.info));
         options.add(new Option("Local Taxis", "977 22 14 14",R.drawable.local_taxi));
         options.add(new Option("City Hall", "977 29 61 00",R.drawable.city_hall));
         options.add(new Option("Local Hospital", "977 231 814",R.drawable.local_hospital));

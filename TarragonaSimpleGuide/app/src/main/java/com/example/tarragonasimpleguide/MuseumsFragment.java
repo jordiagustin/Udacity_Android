@@ -35,30 +35,10 @@ public class MuseumsFragment extends Fragment {
         // Create a list of options
         final ArrayList<Option> options = new ArrayList<Option>();
 
-        options.add(new Option("Archeological Museum", "Dissemination of heritage from Tarraco.\n" +
-                "\nIt is a public museum located in the city of Tarragona (Catalonia, Spain) that houses elements and remains of its rich past. " +
-                "Created in the mid-19th century as a Provincial Museum —being the oldest museum of its kind in Catalonia—, it promotes the recovery, conservation, research and dissemination of heritage from the Roman city of Tarraco and its area of influence. " +
-                "In addition to the Archaeological Museum, the MNAT manages the Paleochristian Museum and Necropolis, the Roman villa of Els Munts (Altafulla) and the Roman villa of Centcelles (Constantí), as well as the monuments of the Arch of Bará and the Tower of the Scipios and the roman Theater. " +
-                "In order to carry out its objectives, it organizes activities and offers diverse services such as temporary exhibitions, conference cycles, seminars, workshops and historical reconstruction activities, publishing publications and audiovisual programs.\n"+
-                "\nReference: https://es.wikipedia.org/wiki/Museo_Arqueológico_Nacional_de_Tarragona",R.drawable.archeologic_museum));
-
-        options.add(new Option("Casa Castell Arnau", "An stately home protected as a cultural benef of local interest.\n" +
-                "\nCasa Castellarnau is a stately home in the city of Tarragona protected as a cultural asset of local interest. " +
-                "It is currently the headquarters of the History Museum of Tarragona. " +
-                "The building was built inside what in Roman times was the administrative square of the Provincial Forum. " +
-                "Excavations carried out in 1993 in the courtyard uncovered a whole series of structures from the Roman period corresponding to the podium of the portico of the great representation square of the province\n" +
-                "\nReference: https://ca.wikipedia.org/wiki/Casa_Castellarnau",R.drawable.casa_castell_arnau));
-
-        options.add(new Option("Casa Canals", "An eclectic work protected with a Cultural Award of Local Interest.\n" +
-                "\nBuilding with ground floor and two floors. It features a large entrance courtyard with a staircase leading to the rooms on the first floor. " +
-                "The main facade is on c/ Granada and was built using the Roman wall as can be seen on the facade of Passeig de Sant Antoni.\n" +
-                "\nReference: https://ca.wikipedia.org/wiki/Casa_Canals_de_Tarragona",R.drawable.casa_canals));
-
-        options.add(new Option("Maritim Museum", "Mainly dedicated to documenting and promoting the Port of Tarragona as well as its surroundings.\n" +
-                "\nWalk through the history of the port from the time the Romans landed there to the present day. The different types of port: commercial, fishing and sports are also represented.\n" +
-                "\n" +
-                "The Banya lighthouse, the only witness of the metal lighthouses installed at the mouth of the Ebro River, was built at the end of the 19th century and in 2003 became the Lighthouse Museum and an extension of the Museum of the Port of Tarragona to show, in the tower's former home, a permanent exhibition related to the world of maritime signals.\n" +
-                "\nReference: http://museusmaritims.mmb.cat/membres/llista-de-museus/museu-del-port,-tarragona",R.drawable.maritim_museum));
+        options.add(new Option(getString(R.string.museums_archeological_title), getString(R.string.museums_archeological_desc),R.drawable.archeologic_museum));
+        options.add(new Option(getString(R.string.museums_arnau_title), getString(R.string.museums_arnau_desc),R.drawable.casa_castell_arnau));
+        options.add(new Option(getString(R.string.museums_canals_title), getString(R.string.museums_canals_desc),R.drawable.casa_canals));
+        options.add(new Option(getString(R.string.museums_maritim_title), getString(R.string.museums_maritim_desc),R.drawable.maritim_museum));
 
         // Create an {@link OptionAdapter}, whose data source is a list of {@link Option}s. The
         // adapter knows how to create list items for each item in the list.

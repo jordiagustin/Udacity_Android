@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:scrReference="http://schemas.android.com/apk/res-auto">
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Tarragona Simple Guide</string>
 
@@ -17,7 +17,93 @@
     <!-- Category name for information [CHAR LIMIT=20] -->
     <string name="category_information">Info/Help</string>
 
-    <!-- Detailed descriptions -->
-    <string name="walls_description">asdadsasdasdasdasdsasdasdasddas</string>
+    <!-- Monuments strings -->
+    <string name="monuments_walls_title">Walls of Tarragona</string>
+    <string name="monuments_walls_desc">Ancient roman Wall.\n
+        \nThe Roman wall was built at the end of the 3rd century BC. C., although specialists have not yet agreed on whether it was during the Second Punic War or later.\n
+        \nIt is known that it underwent an enlargement throughout the 2nd century BC. C., probably during the formation of the Roman city of Tarraco.
+        Three original towers remain from this period: l´Arquebisbe, Cabiscol and Minerva.
+        In 217 and 197 a. C. was enlarged and strengthened with a stone front of 6 meters and about 4.5 meters thick, with towers in the weak points.
+        It had a length around the 3rd century BC. C. about 4 km. However, today only about 1 km and an original voussoir door remain.\n
+        \nAfter the Islamic invasion, Tarraco suffered a gradual depopulation and it was not until the occupation of Ramón Berenguer IV, in the 12th century, that the wall was reused and repaired.
+        Various modifications and repairs are known from the modern and contemporary times, being modified during the Napoleonic occupation.\n
+        \nSince the end of the 19th century it has been public property and a World Heritage Site, and is one of the characteristic symbols of the city of Tarragona.\n
+        \nMore info at: https://es.wikipedia.org/wiki/Muralla_de_Tarragona</string>
+      <string name="monuments_scipioni_title">Scipioni Tower</string>
+      <string name="monuments_scipioni_desc">Roman funerary tower.\n
+          \nThe Torre dels Escipions is a funerary monument in the form of a tower built in the first half of the 1st century AD next to the Via Augusta in the west-north/west of the city of Tarragona.\n
+          \nIt is made up of three superimposed bodies and on the intermediate facade there are two figures of Atis—oriental funerary deity—who hold an inscription. An erroneous identification of the figures with the brothers Publius and Gnaeus Scipio is the origin of the traditional name.\n
+          \nMore info at: https://ca.wikipedia.org/wiki/Torre_dels_Escipions</string>
+      <string name="monuments_arc_title">Arc of Berà</string>
+      <string name="monuments_arc_desc">Honorific roman arc.\n
+          \nLocated in Roda de Berà, about 20 km north of the city of Tarragona. The arch is located on the route of what used to be Via Augusta.
+          It was erected by the will of Luci Licini Sura at the end of the 1st century BC, and dedicated to the emperor Augustus.
+          With a single opening, it is built with local stone blocks, with eight fluted pilasters, topped by Corinthian capitals,
+          which support a entablature with an inscription alluding to its construction. It is assumed that it was dedicated to Augustus or his genius,
+          and that it served to mark the territorial limits that depended on Tarraco.\n
+          \nMore info at: https://ca.wikipedia.org/wiki/Arc_de_Berà</string>
+    <string name="monuments_amphitheater_title">Roman Amphitheater</string>
+    <string name="monuments_amphitheater_desc">Ancient coast Amphitheater.\n
+        \nBuilt very close to the sea, behind the walls of the city of Tarraco, capital of the Roman province of Hispania Citerior Tarraconensis.
+        It is one of the locations of the World Heritage site called <i>Archaeological Complex in Tarraco</i>>, specifically with the code 875-007 (current Tarragona), in Spain.\n
+        \nMore info at: https://es.wikipedia.org/wiki/Anfiteatro_de_Tarraco</string>
+    <string name="monuments_aqueduct_title">Roman Amphitheater</string>
+    <string name="monuments_aqueduct_desc">Roman aqueduct also known as Aqueducte de les Ferreres.\n
+        \nThe so-called aqueduct of Ferreres, also known as Pont del Diable, is a Roman archway that forms part of the aqueduct that supplied water from the Francolí River to the city of Tarraco (Tarragona), from a distance of 25 km.
+        The archery is located on the outskirts of the city of Tarragona (Catalonia, Spain), which has been designated a World Heritage Site by Unesco, thanks to the fact that it is one of the monuments of the Roman era that are preserved in extraordinary good condition.\n
+        \nMore info at: https://es.wikipedia.org/wiki/Acueducto_de_les_Ferreres</string>
+
+    <!-- Museums strings -->
+    <string name="museums_archeological_title">Archeological Museum</string>
+    <string name="museums_archeological_desc">Dissemination of heritage from Tarraco.\n
+        \nIt is a public museum located in the city of Tarragona (Catalonia, Spain) that houses elements and remains of its rich past. Created in the mid-19th century as a Provincial Museum —being the oldest museum of its kind in Catalonia—, it promotes the recovery, conservation,
+        research and dissemination of heritage from the Roman city of Tarraco and its area of influence.\n
+        \nIn addition to the Archaeological Museum, the MNAT manages the Paleochristian Museum and Necropolis, the Roman villa of Els Munts (Altafulla) and the Roman villa of Centcelles (Constantí), as well as the monuments of the Arch of Bará and the Tower of the Scipios and the roman Theater.
+        In order to carry out its objectives, it organizes activities and offers diverse services
+        such as temporary exhibitions, conference cycles, seminars, workshops and historical reconstruction activities, publishing publications and audiovisual programs.\n
+        \nMore info at: https://es.wikipedia.org/wiki/Museo_Arqueológico_Nacional_de_Tarragona</string>
+    <string name="museums_arnau_title">Casa Castell Arnau</string>
+    <string name="museums_arnau_desc">An stately home protected as a cultural benef of local interest.\n
+        \nCasa Castellarnau is a stately home in the city of Tarragona protected as a cultural asset of local interest.\n
+        \nIt is currently the headquarters of the History Museum of Tarragona. The building was built inside what in Roman times was the administrative square of the Provincial Forum.Excavations carried out in 1993 in the courtyard uncovered a whole series of structures from the Roman period corresponding
+        to the podium of the portico of the great representation square of the province.\n
+        \nMore info at: https://ca.wikipedia.org/wiki/Casa_Castellarnau</string>
+    <string name="museums_canals_title">Casa Canals</string>
+    <string name="museums_canals_desc">An eclectic work protected with a Cultural Award of Local Interest.\n
+        \nBuilding with ground floor and two floors. It features a large entrance courtyard with a staircase leading to the rooms on the first floor. The main facade is on c/ Granada and was built using the Roman wall as can be seen on the facade of Passeig de Sant Antoni.\n
+        \nMore info at: https://ca.wikipedia.org/wiki/Casa_Canals_de_Tarragona</string>
+    <string name="museums_maritim_title">Maritim Museum</string>
+    <string name="museums_maritim_desc">Mainly dedicated to documenting and promoting the Port of Tarragona as well as its surroundings.\n
+        \nWalk through the history of the port from the time the Romans landed there to the present day. The different types of port: commercial, fishing and sports are also represented.\n
+        \nThe Banya lighthouse, the only witness of the metal lighthouses installed at the mouth of the Ebro River, was built at the end of the 19th century and in 2003 became the Lighthouse Museum and an extension of the Museum of the Port of Tarragona to show, in the tower´s former home, a permanent exhibition related to the world of maritime signals.\n
+        \nMore info at: http://museusmaritims.mmb.cat/membres/llista-de-museus/museu-del-port,-tarragona</string>
+
+    <!-- Landscape strings -->
+    <string name="landscape_platjallarga_title">"Platja Llarga"</string>
+    <string name="landscape_platjallarga_desc">"Longest beach from Tarragona with 3 km of fine sand"</string>
+    <string name="landscape_boscmarquesa_title">"Bosc de la Marquesa"</string>
+    <string name="landscape_boscmarquesa_desc">"'Marquise Forest', a mediterranean forest next to natural beaches"</string>
+    <string name="landscape_miracle_title">"Platja del Miracle"</string>
+    <string name="landscape_miracle_desc">"A pacefully sand beach near the center of Tarragona"</string>
+    <string name="landscape_balco_title">"Mediterranean Balcony"</string>
+    <string name="landscape_balco_desc">"A cliff in Tarragona with a spectacular view of the Mediterranean Sea"</string>
+    <string name="landscape_arrabassada_title">"Platja Arrabassada"</string>
+    <string name="landscape_arrabassada_desc">"A pacefully sand beach near at the end of the round trip"</string>
+    <string name="landscape_savinosa_title">"Platja de la Savinosa"</string>
+    <string name="landscape_savinosa_desc">"A very pacefully natural sand beach outside Tarragona"</string>
+
+    <!-- Information strings -->
+    <string name="tourist_info_title">Tourist Info</string>
+    <string name="tourist_info_telf">977 25 07 95</string>
+    <string name="local_taxis_title">Local Taxis</string>
+    <string name="local_taxis_telf">977 22 14 14</string>
+    <string name="city_hall_title">City Hall</string>
+    <string name="city_hall_telf">977 29 61 00</string>
+    <string name="local_hospital_title">Local Hospital</string>
+    <string name="local_hospital_telf">977 231 814</string>
+    <string name="local_police_title">Local Police</string>
+    <string name="local_police_telf">977 240 345</string>
+    <string name="local_fire_department_title">Local Fire Department</string>
+    <string name="local_fire_department_telf">937 251 234</string>
 
 </resources>

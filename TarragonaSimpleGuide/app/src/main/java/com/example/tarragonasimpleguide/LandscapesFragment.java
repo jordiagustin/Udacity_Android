@@ -35,13 +35,12 @@ public class LandscapesFragment extends Fragment {
         // Create a list of options
         final ArrayList<Option> options = new ArrayList<Option>();
 
-        options.add(new Option("Platja Llarga", "Longest beach from Tarragona with 3 km of fine sand",R.drawable.platja_llarga));
-        options.add(new Option("Bosc de la Marquesa", "'Marquise Forest', a mediterranean forest next to natural beaches",R.drawable.bosc_marquesa));
-        options.add(new Option("Platja del Miracle", "A pacefully sand beach near the center of Tarragona",R.drawable.platja_miracle));
-        options.add(new Option("Mediterranean Balcony", "A cliff in Tarragona with a spectacular view of the Mediterranean Sea",R.drawable.balco_mediterrani));
-        options.add(new Option("Platja Arrabassada", "A pacefully sand beach near at the end of the round trip",R.drawable.platja_arrabassada));
-        options.add(new Option("Rambla Nova", "The city's largest avenue with all kinds of shops and restaurants",R.drawable.rambla_nova));
-        options.add(new Option("Platja de la Savinosa", "A very pacefully natural sand beach outside Tarragona",R.drawable.platja_savinosa));
+        options.add(new Option(getString(R.string.landscape_platjallarga_title), getString(R.string.landscape_platjallarga_desc),R.drawable.platja_llarga));
+        options.add(new Option(getString(R.string.landscape_boscmarquesa_title), getString(R.string.landscape_boscmarquesa_desc),R.drawable.bosc_marquesa));
+        options.add(new Option(getString(R.string.landscape_miracle_title), getString(R.string.landscape_miracle_desc),R.drawable.platja_miracle));
+        options.add(new Option(getString(R.string.landscape_balco_title), getString(R.string.landscape_balco_desc),R.drawable.balco_mediterrani));
+        options.add(new Option(getString(R.string.landscape_arrabassada_title), getString(R.string.landscape_arrabassada_desc),R.drawable.platja_arrabassada));
+        options.add(new Option(getString(R.string.landscape_savinosa_title), getString(R.string.landscape_savinosa_desc),R.drawable.platja_savinosa));
 
 
         // Create an {@link OptionAdapter}, whose data source is a list of {@link Option}s. The
