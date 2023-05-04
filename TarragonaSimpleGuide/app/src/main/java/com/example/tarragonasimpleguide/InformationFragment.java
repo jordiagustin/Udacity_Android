@@ -41,11 +41,11 @@ public class InformationFragment extends Fragment {
         final ArrayList<Option> options = new ArrayList<Option>();
 
         options.add(new Option(getString(R.string.tourist_info_title), getString(R.string.tourist_info_telf),R.drawable.info));
-        options.add(new Option("Local Taxis", "977 22 14 14",R.drawable.local_taxi));
-        options.add(new Option("City Hall", "977 29 61 00",R.drawable.city_hall));
-        options.add(new Option("Local Hospital", "977 231 814",R.drawable.local_hospital));
-        options.add(new Option("Local Police", "977 240 345",R.drawable.local_police));
-        options.add(new Option("Local Fire Department", "937251234",R.drawable.fire_department));
+        options.add(new Option(getString(R.string.local_taxis_title), getString(R.string.local_taxis_telf),R.drawable.local_taxi));
+        options.add(new Option(getString(R.string.city_hall_title), getString(R.string.city_hall_telf),R.drawable.city_hall));
+        options.add(new Option(getString(R.string.local_hospital_title), getString(R.string.local_hospital_telf),R.drawable.local_hospital));
+        options.add(new Option(getString(R.string.local_police_title), getString(R.string.local_police_telf),R.drawable.local_police));
+        options.add(new Option(getString(R.string.local_fire_department_title), getString(R.string.local_fire_department_telf),R.drawable.fire_department));
 
 
         // Create an {@link OptionAdapter}, whose data source is a list of {@link Option}s. The
